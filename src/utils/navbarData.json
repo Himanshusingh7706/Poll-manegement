@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Polls",
+    "path": "/polls",
+    "accessGroup": "public"
+  },
+  {
+    "name": "Add Poll",
+    "path": "/addpoll",
+    "accessGroup": "admin"
+  },
+  {
+    "name": "Create User",
+    "path": "/createuser",
+    "accessGroup": "admin"
+  },
+  {
+    "name": "List Users",
+    "path": "/users",
+    "accessGroup": "admin"
+  }
+]

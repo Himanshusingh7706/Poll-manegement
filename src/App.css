@@ -1,0 +1,138 @@
+/* App.css */
+.toast-container {
+  position: absolute;
+  left: 85%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  z-index: 1050; 
+}
+/* Container and Card Styling */
+.login-main-container{
+  background: linear-gradient(to bottom, #87CEFA, #ebf0ed);
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    width: 30rem;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  /* Error Text Capitalization */
+  .text-error {
+    text-transform: capitalize;
+  }
+  
+  /* Button alignment */
+  .button-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px; 
+    border-radius: 8px; 
+    font-weight: bold; 
+    border: none; 
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth transitions */
+  }
+  
+  .button-custom.login-button {
+    background-color: #20c997; /* Dark teal */
+    color: #ffffff; /* White text */
+  }
+  .button-custom.login-button:hover {
+    background-color: #17a2b8;
+    transform: translateY(-2px);
+  }
+  
+  .button-custom.signup-button {
+    background-color: #20c997; /* Teal */
+    color: white; /* White text */
+  }
+
+  
+  
+  /* Password visibility toggle */
+  .password-toggle-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-55%);
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon.mx-5 {
+    margin-right: 5rem;
+  }
+  
+  .password-toggle-icon.mx-3 {
+    margin-right: 3rem;
+  }
+  
+/* signup page CSS */
+.signup-main-container{
+  background: linear-gradient(to bottom, #f7f7f7, #e0f7fa);
+}
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 20px;
+}
+
+.signup-card {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px; 
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.signup-card h2 {
+  color: #333;
+  text-align: center;
+}
+
+.signup-card input,
+.signup-card select {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.signup-card input:focus,
+.signup-card select:focus {
+  border-color: #ff7a7a;
+  outline: none;
+}
+
+
+
+.signup-card .btn:hover {
+  background-color: #17a2b8;
+  transform: translateY(-2px);
+}
+.password-error{
+  font-size: 15px;
+  line-height: 18px;
+}
+
+/* Model Page css */
+
+.ok-button{
+    width: 70%; /* Set the width to 70% */
+}
